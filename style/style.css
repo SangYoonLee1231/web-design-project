@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: url("../public/images/backgrounds/geometric-1906240_1920.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  overflow-x: hidden;
+  animation: moveBackground 36.5s linear infinite;
+}
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25%;
+}
+
+main .section-one {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section-one__title-text-area {
+  padding-bottom: 5vh;
+}
+main .section-one__title-text-area p {
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+}
+main .section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+main .section-two__menu-box {
+  width: 30vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0px 5vw;
+  border: 15px solid white;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
