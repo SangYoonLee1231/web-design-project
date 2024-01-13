@@ -49,30 +49,7 @@ main .section-one__title-text-area p {
   font-size: 70px;
   font-weight: 900;
   color: white;
-}
-main .section-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
-}
-main .section-three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
-}
-main .section-menu-box {
-  width: 30vw;
-  height: 50vh;
-  background-color: rgba(0, 0, 0, 0.7);
-  margin: 0px 5vw;
-  border: 15px solid white;
-  border-radius: 15px;
-  transition: transform 0.15s ease-out;
-}
-main .section-menu-box:hover {
-  transform: scale(1.1);
+  text-shadow: 3px 3px 3px black;
 }
 
 /*# sourceMappingURL=style.css.map */

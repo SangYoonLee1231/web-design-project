@@ -42,10 +42,6 @@ main .pictures {
   grid-template-rows: repeat(7, minmax(200px, 1fr));
   margin: 10% 5% 50px 5%;
 }
-main .big-pic {
-  grid-column: 1/3;
-  grid-row: 1/3;
-}
 main .pic {
   background-color: rgba(0, 0, 0, 0.7);
   border: 15px solid white;
@@ -53,12 +49,23 @@ main .pic {
   transition: transform 0.15s ease-out;
 }
 main .pic:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
+}
+main .big-pic {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+main .big-pic:hover {
+  transform: scale(1.15);
 }
 main .big-pic .pic {
   height: 94%;
   width: 100%;
   object-fit: cover;
+}
+main img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=gallery.css.map */
