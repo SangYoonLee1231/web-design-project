@@ -123,6 +123,18 @@ main {
       list-style: none;
     }
   }
+
+  .sns {
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 15%;
+  }
 }
 
 footer {
@@ -147,7 +159,7 @@ footer {
     align-items: center;
 
     .contact {
-      width: 400px;
+      width: 350px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -166,8 +178,8 @@ footer {
     }
 
     .location {
-      width: 400px;
-      height: 700px;
+      width: 350px;
+      height: 600px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -175,9 +187,34 @@ footer {
       margin: 5% 0px;
       background-color: rgb(255, 255, 255, 0.8);
       border-radius: 10%;
+      font-size: 12px;
+
+      .location-map {
+        iframe {
+          width: 250px;
+          height: 350px;
+        }
+      }
 
       ul {
         list-style: none;
+      }
+    }
+
+    .sns {
+      width: 350px;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 5% 0px;
+      background-color: rgb(255, 255, 255, 0.8);
+      border-radius: 15%;
+
+      .twitter-timeline {
+        width: 250px;
+        dada-height: 350px;
       }
     }
   }
